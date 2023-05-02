@@ -144,5 +144,7 @@ spring.kafka.consumer.properties.spring.json.trusted.packages=*
 spring.kafka.producer.boostrap-servers:localhost:9092
 spring.kafka.producer.key-serializer: org.apache.kafka.common.serialization.StringSerializer
 #spring.kafka.producer.value-serializer: org.apache.kafka.common.serialization.StringSerializer
-spring.kafka.producer.value-deserializer: org.springframework.kafka.support.serializer.JsonSerializer
+spring.kafka.producer.value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 ```
+
+<img width="1440" alt="Screenshot 2023-05-02 at 12 35 31 PM" src="https://user-images.githubusercontent.com/48306820/235601550-bc672af1-f104-4731-9376-cb4e4fb4f0d2.png">

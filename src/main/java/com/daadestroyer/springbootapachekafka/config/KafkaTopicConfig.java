@@ -11,6 +11,11 @@ public class KafkaTopicConfig {
     @Bean
     public NewTopic theCodersTVTopic(){
         return TopicBuilder.name("thecoderstv").build();
-
     }
+
+    @Bean
+    public NewTopic theCodersTVJsonTopic(){
+        return TopicBuilder.name("thecoderstv_json").build();
+    }
+
 }
